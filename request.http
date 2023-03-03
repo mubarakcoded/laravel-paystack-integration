@@ -1,0 +1,5 @@
+curl https://api.paystack.co/transaction/initialize
+-H "Authorization: Bearer sk_test_7e66e621efc89796583c8d1aae1d53f5a15284da"
+-H "Content-Type: application/json"
+-d '{ "email": "customer@email.com", "amount": "20000" }'
+-X POST
